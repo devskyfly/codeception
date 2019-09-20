@@ -12,7 +12,7 @@ class Container
 
     public function push(Item $item)
     {
-        array_push($this->list, $itm);
+        array_push($this->list, $item);
         return $this;
     }
 

@@ -16,4 +16,9 @@ class Item
     {
         return $this->name."-".$this->prop;
     }
+
+    public function getData()
+    {
+        echo "Data from remote server.";
+    }
 }
